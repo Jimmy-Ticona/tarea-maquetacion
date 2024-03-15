@@ -1,0 +1,148 @@
+.nombre{
+    background-color: darkslateblue;
+}
+.grid{
+    background-color: aquamarine;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+.caja{
+    background-color:darkolivegreen;
+    text-align: center;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+}
+.caja1{
+    background-color:darkolivegreen;
+    text-align: center;
+    height: 100px;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+    grid-column: 1/5;
+}
+.caja2{
+    background-color:rgb(90, 47, 107);
+    text-align: center;
+    margin: 1px;
+    height: 50px; ;
+    border-style: dashed;
+    border-color: darksalmon;
+    grid-column: 1/3;
+}
+.caja3{
+    background-color:rgb(106, 134, 134);
+    text-align: center;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+}
+.caja4{
+    background-color:rgb(195, 99, 59);
+    text-align: center;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+}
+.caja5{
+    background-color:rgb(183, 29, 147);
+    text-align: center;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+}
+.caja6{
+    background-color:rgb(107, 47, 48);
+    text-align: center;
+    height: 50px;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+    grid-column: 2/5;
+}
+.caja7{
+    background-color:rgb(107, 103, 47);
+    text-align: center;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+    grid-column: 1/3;
+    grid-row: 4/6 ; 
+}
+.caja8{
+    background-color:rgb(31, 110, 152);
+    text-align: center;
+    height: 30px;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+    grid-column: 3/5;
+}
+.caja9{
+    background-color:rgb(31, 167, 56);
+    text-align: center;
+    height: 30px;
+    margin: 1px;
+    border-style: dashed;
+    border-color: darksalmon;
+    grid-column: 3/5;
+}
+.flex{
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.cajita1{
+    background-color: blueviolet;
+    margin: 1px;
+    border-style: double;
+    border-color: blue;
+    width: 25%;
+    height: 50px;
+
+}
+.cajita2{
+    background-color: rgb(212, 6, 43);
+    margin: 1px;
+    padding: 1px;
+    border-style: double;
+    border-color: blue;
+    width: 45%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.cajita3{
+    background-color: rgb(20, 212, 6);
+    margin: 1px;
+    border-style: double;
+    border-color: blue;
+    width: 25%;
+    height: 50px;
+
+}
+.subcaja1{
+    background-color: chocolate;
+    margin: 1px;
+    border-style: groove;
+    border-color: darkmagenta;
+    grid-column: 1/4;
+}
+.subcaja2{
+    background-color: chocolate;
+    margin: 1px;
+    border-style: groove;
+    border-color: darkmagenta;
+}
+.subcaja3{
+    background-color: chocolate;
+    margin: 1px;
+    border-style: groove;
+    border-color: darkmagenta;
+}
